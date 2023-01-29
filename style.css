@@ -1,0 +1,29 @@
+html {
+    background-color: rgb(122, 126, 125);
+}
+h1 {
+    color: brown;
+}
+h2 {
+    font-family: 'Lombardia', sans-serif;
+    color: rgb(61, 118, 136);
+}
+a {
+    color: rgb(16, 221, 108);
+}
+@font-face {
+	font-family: 'Lombardia' ;
+	src: url('fonts/lombardia.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/lombardia.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/lombardia.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/lombardia.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/lombardia.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/lombardia.svg#lombardia') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+img {
+    margin-left: 100px;
+    border: 2px solid black;
+}
+.first_image {
+    margin-top: 50px;
+}
